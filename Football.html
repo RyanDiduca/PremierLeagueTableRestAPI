@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Football Scores</title>
+        <link href="./css/FootballStyles.css" type="text/css" rel="stylesheet" />
+        <script src="Data.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Premier League</h1>
+            </div>
+            <div id="modalPopout" class="modal">
+                <div id="modalContent" class="modal-content">
+                </div>
+              </div>
+            <div class="mainTable">
+            <table class="table" id="league">
+                <tr>
+                <th>Position</th>
+                <th>Team</th>
+                <th>Played</th>
+                <th>Won</th>
+                <th>Drawn</th>
+                <th>Lost</th>
+                <th>GF</th>
+                <th>GA</th>
+                <th>GD</th>
+                <th>Points</th>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <div id="overlay"></div>
+    </body>
+</html>
